@@ -1,13 +1,59 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
   margin: 0;
   padding: 20px;
 }
 
-h1 {
-  text-align: center;
-  color: #333;
+ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
 }
 
+h1 {
+  text-align: center;
+  color: #0089;
+}
 
+h3 {
+  font-weight: 200;
+  font-size: 18px;
+}
+
+p {
+  font-size: smaller;
+}
+
+#listaUsuarios {
+}
+
+.fondo {
+  display: flex;
+  border: 1px solid rgb(185, 185, 185);
+  border-radius: 0.8%;
+  max-width: 550px;
+  position: relative;
+}
+
+.imagen {
+  width: 200px;
+  height: 180px;
+  margin: 20px;
+}
+
+.datos1 {
+  border: 1px solid rgb(150, 149, 149);
+  border-radius: 0.8%;
+  width: 700px;
+  height: 150px;
+  margin: 10px;
+  padding-left: 5px;
+}
+
+.datos2 {
+  flex-grow: 1;
+  position: absolute;
+  bottom: -10px;
+  left: 8px;
+}
